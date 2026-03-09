@@ -1,36 +1,136 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SUTAR ABHILASH - PORTFOLIO WEBSITE BACKUP
 
-## Getting Started
+## Quick Restore Instructions for Z.ai
 
-First, run the development server:
+When starting a NEW Z.ai session, upload this folder and say:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+This is my portfolio website backup. Please restore it to the Next.js project.
+- Main page code is in `page.tsx`
+- Styles are in `globals.css` 
+- Project info is in `project-summary.json`
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Name:** Sutar Abhilash  
+**Role:** Game Producer & QA Specialist  
+**Location:** Warsaw, Poland  
+**Theme:** Japanese Vermilion Red (#c73e3a) with Sumi-e Ink Wash Art Style
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Click-to-Expand Project Modals** - Full story + YouTube trailers for:
+   - Darts VR 2: BullsEye (Video ID: `9bhi99V5qXU`)
+   - PartyNite Metaverse (Video ID: `7XC2nqlYFCM`)  
+   - SoapBox Racing (Video ID: `ZIDo3iyM3bU`)
+   - Murder Mystery (NO video)
+   - Secret Agent (NO video)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Click-to-Expand Experience Modals** - With:
+   - Full Journey Story
+   - Key Achievements (6 bullet points each)
+   - Technologies Used
+   - Projects Worked On
 
-## Deploy on Vercel
+3. **Left-Side Expandable Navigation** - Hover to expand
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Floating Darts Animation** - Canvas-based, Japanese red themed
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. **Cherry Blossom Decorations** - Brush stroke background layers
+
+---
+
+## Tech Stack
+
+- Next.js 16 with App Router
+- TypeScript
+- Tailwind CSS
+- Framer Motion (for modal animations)
+- Canvas API (for floating darts)
+
+---
+
+## File Structure
+
+```
+src/app/
+├── page.tsx          # Main React component (62KB)
+├── globals.css       # All custom styles (22KB)
+└── layout.tsx        # Root layout
+
+public/
+├── Abh17ash.pdf      # Resume file
+└── robots.txt
+```
+
+---
+
+## YouTube Video IDs
+
+| Project | YouTube ID | Notes |
+|---------|------------|-------|
+| Darts VR 2 | `9bhi99V5qXU` | Main trailer |
+| PartyNite | `7XC2nqlYFCM` | Metaverse trailer |
+| SoapBox Racing | `ZIDo3iyM3bU` | Game jam winner |
+| Murder Mystery | - | NO VIDEO |
+| Secret Agent | - | NO VIDEO |
+
+---
+
+## Color Palette
+
+```css
+--vermilion: #c73e3a      /* Primary red */
+--vermilion-dark: #a32e2a /* Darker shade */
+--vermilion-light: #e85a55 /* Lighter shade */
+--gold: #d4a84b           /* Accent gold */
+--paper-white: #ffffff    /* Background */
+--paper-cream: #fafaf8    /* Section bg */
+```
+
+---
+
+## Experience Data
+
+### Gamitronics (04/2022 - 03/2025)
+- **Role:** QA Game Tester, Production Support
+- **Location:** Hyderabad
+- **Achievements:** 
+  - QA for Darts VR 2 across PS VR2, Meta Quest, PC VR
+  - 500+ bugs documented
+  - Live metaverse events for Airtel, Van Heusen, ENO
+- **Technologies:** Unity, JIRA, Meta Quest Developer Hub, PlayStation Dev Kits
+- **Projects:** Darts VR 2: BullsEye, PartyNite Metaverse
+
+### Vincell Studios (08/2021 - 04/2022)
+- **Role:** Jr. Game Tester (Intern to Full-time)
+- **Location:** Bangalore
+- **Achievements:**
+  - Trained 5+ QA testers
+  - 30% workflow optimization
+  - Games with 1M+ downloads
+- **Technologies:** Unity, Android Studio, JIRA
+- **Projects:** Murder Mystery, Secret Agent, Lost Temple
+
+---
+
+## Contact Information
+
+- **Email:** sutarabhilash@gmail.com
+- **LinkedIn:** linkedin.com/in/sutar-abhilash
+- **GitHub:** github.com/Abh17ash
+- **PlayStation Store:** store.playstation.com/pl-pl/concept/10010616
+- **Steam:** store.steampowered.com/app/2873180/Darts_VR_2_Bullseye/
+
+---
+
+## Backup Created
+
+**Date:** March 2025  
+**Version:** 1.0  
+**Status:** Complete with all features working

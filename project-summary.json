@@ -1,0 +1,125 @@
+{
+  "portfolio": {
+    "owner": {
+      "name": "Sutar Abhilash",
+      "role": "Game Producer & QA Specialist",
+      "location": "Warsaw, Poland",
+      "email": "sutarabhilash@gmail.com",
+      "available": true
+    },
+    "theme": {
+      "name": "Japanese Sumi-e Ink Wash Art Style",
+      "primaryColor": "#c73e3a",
+      "colorName": "Vermilion Red",
+      "colors": {
+        "vermilion": "#c73e3a",
+        "vermilionDark": "#a32e2a",
+        "vermilionLight": "#e85a55",
+        "gold": "#d4a84b",
+        "paperWhite": "#ffffff",
+        "paperCream": "#fafaf8"
+      }
+    },
+    "features": {
+      "projectModals": true,
+      "experienceModals": true,
+      "youtubeTrailers": true,
+      "floatingDartsAnimation": true,
+      "cherryBlossomDecorations": true,
+      "leftSideNavigation": true
+    },
+    "projects": [
+      {
+        "title": "Darts VR 2: BullsEye",
+        "studio": "Gamitronics Studios",
+        "role": "QA Game Tester",
+        "platform": "PS VR, Meta VR, PC VR",
+        "status": "announced",
+        "featured": true,
+        "youtubeId": "9bhi99V5qXU",
+        "links": [
+          "https://store.playstation.com/pl-pl/concept/10010616",
+          "https://store.steampowered.com/app/2873180/Darts_VR_2_Bullseye/"
+        ]
+      },
+      {
+        "title": "Murder Mystery",
+        "studio": "Vincell Studios",
+        "role": "Jr. Game Tester",
+        "platform": "Mobile",
+        "status": "released",
+        "youtubeId": null,
+        "link": "https://play.google.com/store/apps/details?id=com.vincellstudios.murdermystery"
+      },
+      {
+        "title": "Secret Agent",
+        "studio": "Vincell Studios",
+        "role": "Jr. Game Tester",
+        "platform": "Mobile",
+        "status": "released",
+        "youtubeId": null,
+        "link": "https://play.google.com/store/apps/details?id=com.vincellstudios.hiddenescapespyagent"
+      },
+      {
+        "title": "PartyNite Metaverse",
+        "studio": "Gamitronics Studios",
+        "role": "QA Game Tester",
+        "platform": "PC, Mobile & VR",
+        "status": "released",
+        "youtubeId": "7XC2nqlYFCM",
+        "clients": ["Airtel", "Van Heusen", "ENO"],
+        "link": "https://play.google.com/store/search?q=partynite&c=apps"
+      },
+      {
+        "title": "SoapBox Racing",
+        "studio": "Futuregames",
+        "role": "Game Producer",
+        "platform": "PC",
+        "status": "released",
+        "youtubeId": "ZIDo3iyM3bU",
+        "award": "1st Place - CD Projekt RED, Activision & Flying Wild Hog",
+        "link": "https://futuregames.itch.io/soapbox-racing"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Gamitronics",
+        "title": "QA Game Tester",
+        "subtitle": "Production Support",
+        "location": "Hyderabad",
+        "period": "04/2022 - 03/2025",
+        "current": true,
+        "achievementsCount": 6,
+        "technologies": ["Unity", "JIRA", "Meta Quest Developer Hub", "PlayStation Dev Kits", "Test Management Tools", "Git"],
+        "projects": ["Darts VR 2: BullsEye", "PartyNite Metaverse", "Client Branded Experiences"]
+      },
+      {
+        "company": "Vincell Studios",
+        "title": "Jr. Game Tester",
+        "subtitle": "Intern to Full-time",
+        "location": "Bangalore",
+        "period": "08/2021 - 04/2022",
+        "current": false,
+        "achievementsCount": 6,
+        "technologies": ["Unity", "Android Studio", "JIRA", "Test Cases Documentation", "Bug Tracking Systems"],
+        "projects": ["Murder Mystery", "Secret Agent", "Lost Temple", "Hidden Escape Games"]
+      }
+    ],
+    "stats": {
+      "yearsInGaming": "3+",
+      "languages": 5,
+      "gamesShipped": "5+",
+      "specialty": "VR"
+    },
+    "education": {
+      "current": "Futuregames Warsaw",
+      "degree": "Game Producer",
+      "period": "2024 - 2026"
+    },
+    "techStack": {
+      "frontend": ["Next.js 16", "TypeScript", "Tailwind CSS", "Framer Motion"],
+      "animation": ["Canvas API", "CSS Animations"],
+      "backend": ["Next.js API Routes"]
+    }
+  }
+}
